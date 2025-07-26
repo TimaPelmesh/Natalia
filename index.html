@@ -21,26 +21,39 @@
     <section class="hero">
       <div class="container hero__container">
         <h1 class="hero__title">Откройте Швейцарию<br>с <span class="accent">SARDONYX</span></h1>
-        <p class="hero__subtitle">Премиальные туры и индивидуальный подход для самых взыскательных клиентов</p>
+        <p class="hero__subtitle">Ваш личный проводник в мир роскошного отдыха</p>
         <a href="#request" class="btn btn--accent">Оставить заявку</a>
       </div>
     </section>
-    <section class="advantages">
-      <div class="container advantages__container">
-        <div class="advantage-card">
-          <div class="advantage-card__icon">★</div>
-          <div class="advantage-card__title">VIP-сервис</div>
-          <div class="advantage-card__desc">Персональный подход и круглосуточная поддержка</div>
-        </div>
-        <div class="advantage-card">
-          <div class="advantage-card__icon">⛰️</div>
-          <div class="advantage-card__title">Эксклюзивные маршруты</div>
-          <div class="advantage-card__desc">Только лучшие места и уникальные впечатления</div>
-        </div>
-        <div class="advantage-card">
-          <div class="advantage-card__icon">🛡️</div>
-          <div class="advantage-card__title">Надежность</div>
-          <div class="advantage-card__desc">Гарантия качества и безопасность на каждом этапе</div>
+    <section class="services">
+      <div class="container">
+        <div class="services__intro">Мы откроем для вас двери в мир исключительного комфорта, красоты и заботы. Мы создаём не просто путешествия — мы создаём воспоминания, которые останутся с вами навсегда.</div>
+        <h2 class="section-title services__title">Что вас ждет</h2>
+        <div class="services__container">
+          <div class="service-row">
+            <div class="service-card__content">
+              <div class="service-card__title">Шале и апартаменты в Швейцарии и во Франции</div>
+              <div class="service-card__desc">Уютные шале в Альпах, роскошные апартаменты с видом на горы и озера. Мы подберем идеальное жилье для вашего отдыха, учитывая все ваши пожелания и предпочтения.</div>
+              <a href="#request" class="btn btn--accent service-card__btn">Отправить запрос</a>
+            </div>
+            <img src="images/красивые-дома-в-снегу.jpg" alt="Шале и апартаменты" class="service-card__img">
+          </div>
+          <div class="service-row">
+            <img src="images/человек-открывает-дверь-люксовго-авто.jpg" alt="Экскурсионное обслуживание и трансферы" class="service-card__img">
+            <div class="service-card__content">
+              <div class="service-card__title">Экскурсионное обслуживание и трансферы в Швейцарии</div>
+              <div class="service-card__desc">Комфортные трансферы на премиальных автомобилях, индивидуальные экскурсии с профессиональными гидами. Откройте для себя самые красивые уголки Швейцарии в сопровождении опытных специалистов.</div>
+              <a href="#request" class="btn btn--accent service-card__btn">Отправить запрос</a>
+            </div>
+          </div>
+          <div class="service-row">
+            <div class="service-card__content">
+              <div class="service-card__title">Гостиницы в Швейцарии и других городах Европы</div>
+              <div class="service-card__desc">Лучшие отели 4* и 5* в Швейцарии и по всей Европе. Мы сотрудничаем только с проверенными гостиницами, гарантирующими высочайший уровень сервиса и комфорта.</div>
+              <a href="#request" class="btn btn--accent service-card__btn">Отправить запрос</a>
+            </div>
+            <img src="images/дорогой-реторан.jpg" alt="Гостиницы в Швейцарии и Европе" class="service-card__img">
+          </div>
         </div>
       </div>
     </section>
@@ -49,9 +62,8 @@
         <h2 class="section-title">Оставьте заявку</h2>
         <form class="request-form">
           <input type="text" placeholder="Имя" required>
-          <input type="tel" placeholder="Телефон" required>
           <input type="email" placeholder="Email" required>
-          <textarea placeholder="Комментарий"></textarea>
+          <textarea placeholder="Сообщение"></textarea>
           <button type="submit" class="btn btn--accent">Отправить</button>
         </form>
       </div>
@@ -59,11 +71,14 @@
   </main>
   <footer class="footer">
     <div class="container footer__container">
-      <div class="footer__contacts">
-        <div>info@sardonyx.ch</div>
-        <div>+41 22 123 45 67</div>
+      <div class="footer__top">
+        <img src="images/logo.png" alt="SARDONYX logo" class="footer__logo">
+        <div class="footer__contacts">
+          <div class="footer__contact"><span class="footer__icon"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" rx="5" fill="#e10600"/><path d="M4 6.5L10 11L16 6.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="4" y="6.5" width="12" height="7" rx="2" stroke="white" stroke-width="1.5"/></svg></span> info@sardonyx.ch</div>
+          <div class="footer__contact"><span class="footer__icon"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" rx="5" fill="#e10600"/><path d="M6.5 7.5C7.5 10 10 12.5 12.5 13.5L14 12C14.2 11.8 14.5 11.8 14.7 12C15.3 12.6 15.9 13.2 16.5 13.8C16.7 14 16.7 14.3 16.5 14.5C15.1 15.9 13.1 16.5 11 16.5C7.1 16.5 3.5 12.9 3.5 9C3.5 6.9 4.1 4.9 5.5 3.5C5.7 3.3 6 3.3 6.2 3.5C6.8 4.1 7.4 4.7 8 5.3C8.2 5.5 8.2 5.8 8 6L6.5 7.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span> +41 22 123 45 67</div>
+        </div>
       </div>
-      <div class="footer__copyright">© 2024 SARDONYX. Все права защищены.</div>
+      <div class="footer__copyright">© 2025 SARDONYX. Все права защищены.</div>
     </div>
   </footer>
 </body>
